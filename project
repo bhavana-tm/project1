@@ -1,0 +1,65 @@
+ <form >
+        <div class="main">
+            <div class="card">
+                <h2> Register Form:</h2>
+                <label >Name:</label>
+                <br>
+                <input type="name" name="name" required >
+                <br>
+                <br>
+                <label > Number:</label>
+                <br>
+                <input type="number" name="number" required >
+                <br>
+                <br>
+                <label >Email:</label>
+                <br>
+                <input type="email" name="email" required >
+                <br>
+                <br>
+                <label >Password: </label>
+                 <br>
+                <input type="password" name="password" required >
+                <br>
+                <br>
+                <label >Gender:</label>
+                <br>
+                <div id="gen">
+                <input type="radio" value="m" name="gender"required > Male
+                <input type="radio" value="f" name="gender" required> Female
+                <input type="radio" value="o" name="gender" required> Other
+                <br>
+                <br>
+                </div> 
+                <label >Location:</label>
+                <br>
+                <select>
+                   <option>Banglore</option>
+                   <option>Chitradurga</option>
+                   <option >Madkeri</option>
+                   <option >Mysore</option>
+                   <option >Davangere</option>
+                </select>
+                <br>
+                <br>
+               <label >Hobbies:</label>
+               <br>
+               <div class="hob">
+                <input type="checkbox" name="Hobbies[]" value="name" > Reading books
+                <input type="checkbox" name="Hobbies[]" value="name" > Tavelling
+                <input type="checkbox" name="Hobbies[]"value="name" > Watching Movies
+                <br>
+                <br>
+                </div>
+                <label >Image:</label>
+                <input type="file" name="image" class="img">
+                <br>
+                <br>
+                <button class="btn">  Submit
+
+                </button>
+
+            </div>
+
+        </div>    
+    </form>
